@@ -64,13 +64,12 @@ function gerarNumeroAleatorio(){
         return numeroEscolhido; // Retorna o número gerado
     }
 }
-console.log(numeroAleatorio);
+
 
 
 
 function novoJogo(){
     numeroAleatorio = gerarNumeroAleatorio();
-    console.log(numeroAleatorio);
     alert('Agora quero ver adivinhar esse número aqui!');
     desabilitarBotao();
 }
